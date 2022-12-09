@@ -8,10 +8,10 @@ sudo apt-get install python3-dev -y
 sudo apt-get install python3-numpy -y
 sudo apt-get install python3-pip -y
 
-pip install --upgrade pip -y
-pip install --upgrade pyside6 -y
-pip install --upgrade matplotlib -y
-pip install --upgrade numpy -y
+pip install --upgrade pip
+pip install --upgrade pyside6
+pip install --upgrade matplotlib
+pip install --upgrade numpy
 
 sudo apt install build-essential -y
 sudo apt-get install cmake -y
