@@ -1,9 +1,8 @@
-" basic setting
-set nocompatible            " disable compatibility to old-time vi
+set nocompatible
 syntax on
 filetype plugin indent on
 set ts=2 sts=2 sw=2 et ai si
-set cursorline              " highlight current cursorline
+set cursorline
 set encoding=UTF-8
 set nu
 set background=dark
