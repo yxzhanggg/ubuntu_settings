@@ -39,6 +39,7 @@ sudo apt-get install libgstreamer-plugins-base1.0-dev -y
 sudo apt-get install libgstreamer1.0-dev -y
 sudo apt install texlive-full -y
 sudo apt-get install fonts-powerline -y
+sudo apt-get install exuberant-ctags -y
 
 git config --global user.name "yxzhanggg"
 git config --global user.email "yxzhangchn@gmail.com"
