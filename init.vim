@@ -50,6 +50,8 @@ nnoremap <F6> :sp<CR>:terminal<CR>
 nnoremap <S-Tab> gT
 nnoremap <Tab> gt
 nnoremap <silent> <S-t> :tabnew<CR>
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
 
 " coc.nvim
 "use <tab> for trigger completion and navigate to the next complete item
