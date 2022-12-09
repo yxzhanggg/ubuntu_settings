@@ -38,15 +38,16 @@ sudo apt-get install libgstreamer-plugins-base1.0-dev -y
 sudo apt-get install libgstreamer1.0-dev -y
 sudo apt install texlive-full -y
 
+git config --global user.name "yxzhanggg"
+git config --global user.email "yxzhangchn@gmail.com"
+ssh-keygen -t rsa
 
 sudo apt install curl
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-git config --global user.name "yxzhanggg"
-git config --global user.email "yxzhangchn@gmail.com"
-ssh-keygen -t rsa
+
 
 
 sudo apt install npm
