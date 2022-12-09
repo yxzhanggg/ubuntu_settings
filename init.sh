@@ -12,6 +12,7 @@ pip install --upgrade pip
 pip install --upgrade pyside6
 pip install --upgrade matplotlib
 pip install --upgrade numpy
+pip install black
 
 sudo apt install build-essential -y
 sudo apt-get install cmake -y
@@ -37,6 +38,7 @@ sudo apt-get install libopenexr-dev -y
 sudo apt-get install libgstreamer-plugins-base1.0-dev -y
 sudo apt-get install libgstreamer1.0-dev -y
 sudo apt install texlive-full -y
+sudo apt-get install fonts-powerline -y
 
 git config --global user.name "yxzhanggg"
 git config --global user.email "yxzhangchn@gmail.com"
@@ -75,10 +77,7 @@ sudo apt install bat
 
 git clone git@github.com:ryanoasis/nerd-fonts.git
 ./install.sh
-sudo apt-get install fonts-powerline
 
-:CocInstall coc-tsserver coc-css coc-eslint coc-emmet coc-pyright coc-clangd
-command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+:CocInstall coc-pyright coc-clangd
 https://dev.to/elvessousa/my-basic-neovim-setup-253l
-pip install black
 
