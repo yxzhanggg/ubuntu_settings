@@ -77,7 +77,7 @@ git clone git@github.com:ryanoasis/nerd-fonts.git
 ./install.sh
 sudo apt-get install fonts-powerline
 
-:CocInstall coc-tsserver coc-css coc-eslint coc-emmet coc-pyright coc-prettier coc-clangd
+:CocInstall coc-tsserver coc-css coc-eslint coc-emmet coc-pyright coc-clangd
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 https://dev.to/elvessousa/my-basic-neovim-setup-253l
 pip install black
