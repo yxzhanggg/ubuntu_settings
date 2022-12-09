@@ -29,6 +29,10 @@ Plug 'airblade/vim-gitgutter'
 Plug 'preservim/nerdtree'
 Plug 'plasticboy/vim-markdown'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'preservim/tagbar'
+Plug 'wellle/context.vim'
 call plug#end()
 
 color gruvbox
@@ -50,8 +54,9 @@ nnoremap <F6> :sp<CR>:terminal<CR>
 nnoremap <S-Tab> gT
 nnoremap <Tab> gt
 nnoremap <silent> <S-t> :tabnew<CR>
-map <C-J> :bnext<CR>
-map <C-K> :bprev<CR>
+nnoremap <F8> :TagbarToggle<CR>
+nnoremap <C-J> :bnext<CR>
+nnoremap <C-K> :bprev<CR>
 
 " coc.nvim
 "use <tab> for trigger completion and navigate to the next complete item
