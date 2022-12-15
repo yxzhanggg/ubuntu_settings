@@ -33,6 +33,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'preservim/tagbar'
 Plug 'wellle/context.vim'
+Plug 'github/copilot.vim'
+Plug 'heavenshell/vim-pydocstring', { 'do': 'make install', 'for': 'python' }
 call plug#end()
 
 color gruvbox
@@ -46,7 +48,7 @@ let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_conceal = 0
 let g:vim_markdown_fenced_languages = ['tsx=typescriptreact']
-
+let g:pydocstring_formatter = 'sphinx'
 nnoremap <C-q> :q!<CR>
 nnoremap <F4> :bd<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
