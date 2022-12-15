@@ -62,7 +62,7 @@ sudo apt-get install tmux
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
-
+# add `setw -g mouse on` to .tmux.conf
 
 sudo apt-get install neovim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
