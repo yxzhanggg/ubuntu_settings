@@ -85,4 +85,4 @@ git clone git@github.com:ryanoasis/nerd-fonts.git
 
 # :CocInstall coc-pyright coc-clangd
 #https://dev.to/elvessousa/my-basic-neovim-setup-253l
-
+sudo apt install gnome-tweaks
