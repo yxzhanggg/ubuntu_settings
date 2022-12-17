@@ -72,6 +72,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 sudo apt install duf
 sudo snap install procs
 sudo snap install bottom
+sudo snap connect bottom:mount-observe
+sudo snap connect bottom:hardware-observe
+sudo snap connect bottom:system-observe
+sudo snap connect bottom:process-control
 sudo apt install exa
 sudo apt install bat
 
@@ -79,6 +83,6 @@ sudo apt install bat
 git clone git@github.com:ryanoasis/nerd-fonts.git
 ./install.sh
 
-:CocInstall coc-pyright coc-clangd
-https://dev.to/elvessousa/my-basic-neovim-setup-253l
+# :CocInstall coc-pyright coc-clangd
+#https://dev.to/elvessousa/my-basic-neovim-setup-253l
 
