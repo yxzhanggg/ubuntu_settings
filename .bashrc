@@ -115,12 +115,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
 # Set less color scheme
-export LESS_TERMCAP_mb=$'\e[1;33m'
-export LESS_TERMCAP_md=$'\e[1;33m'
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'
 export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[01;32m'
+export LESS_TERMCAP_so=$'\e[01;31m'
 export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;4;32m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+
+
